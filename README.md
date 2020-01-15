@@ -9,3 +9,4 @@ The data contains:
 - **Passing** - Big chances created, Assists,	Accurate passes,	Percent of Accurate passes,	Key passes
 - **Goalkeeper** - Saves,	Clean sheets,	Penalties saved,	Saved shots from inside the box,	Runs out,	Rating
 
+ Sofa_Score/sofa_score.png 
