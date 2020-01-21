@@ -76,7 +76,7 @@ class sofa_scoure(scrapy.Spider):
                 "total_shots": int(json.loads(response.body_as_unicode())['results'][i]['totalShots']),
                 "goal_conversion_percentage": float(json.loads(response.body_as_unicode())['results'][i]['goalConversionPercentage']),
                 "rating": float(json.loads(response.body_as_unicode())['results'][i]['rating']),
-                "Date_att": str(date.today())
+                "league": str('A/2019')
             })
 
         next_page = 'https://www.sofascore.com/api/v1/unique-tournament/325/season/22931/statistics?fields=goals%2C' \
@@ -94,8 +94,11 @@ class sofa_scoure(scrapy.Spider):
                 for elem in l:
                     data[elem['name'], elem['team'], elem['rating']].update(elem)
 
-
+            #Save in bd and/or in csv
             #db.sofa_score_data.insert_many(data.values())
+            Data = pd.DataFrame(data).T
+            Data.to_csv('brasileirao_2019A.csv', index=False)
+
 
 
 
