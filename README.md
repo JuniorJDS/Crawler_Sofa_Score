@@ -1,7 +1,7 @@
 # Sofa_Score
 Crowler of the site sofascore.com
 
-The goal of this crowler is access the site and extract statistical data of the soccer players at brazilian league (Brasileirão Serie A)
+The goal of this crowler is access the site and extract statistical data of the soccer players at brazilian league (Brasileirão Serie A and Brasileirão Serie B)
 
 The data contains:
 - **Attack** - Goals, Big chances missed, Successful dribbles, Total shots, Percent of Goal conversion
