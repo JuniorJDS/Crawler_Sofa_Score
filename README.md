@@ -40,7 +40,7 @@ Install the virtual environment and requirements:
 
     pip3 install -r requirements.txt
 ```
-To put our spider to work, go to the project’s top level directory and run:
+To put our spider to work run:
 ```
 scrapy crawl brasileirao2019_serieA 
 scrapy crawl brasileirao2019_serieB
