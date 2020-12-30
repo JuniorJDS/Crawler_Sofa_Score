@@ -42,6 +42,6 @@ Install the virtual environment and requirements:
 ```
 To put our spider to work run:
 ```
-scrapy crawl brasileirao2019_serieA 
-scrapy crawl brasileirao2019_serieB
+    scrapy crawl brasileirao2019_serieA 
+    scrapy crawl brasileirao2019_serieB
 ```
